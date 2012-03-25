@@ -1,0 +1,7 @@
+alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias mongo_start="mongod run --config /usr/local/Cellar/mongodb/1.8.1-x86_64/mongod.conf"
+alias mysql_start="nohup mysql.server start"
+alias mysql_stop="mysql.server stop"
+alias redis_start="redis-server /usr/local/etc/redis.conf"
+alias redis="redis-cli"
