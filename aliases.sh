@@ -1,6 +1,12 @@
+alias cgrep="grep --color=always"
+alias tailf="tail -f"e
+alias catn="cat -n"
+alias cp="cp -i"
+alias mv="mv -i"
 alias ls="ls -h"
 alias disk_usage="df -kh"
 alias dus="du -Psckx * | sort -nr"
 alias flushcache="dscacheutil -flushcache"
 alias pryrails="pry -r ./config/environment"
 alias be="bundle exec"
+alias cf="coffee"

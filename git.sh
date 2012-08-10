@@ -15,4 +15,5 @@ if [ -n `which git` ]; then
   alias gr="git remove"
   alias gco="git checkout"
   alias gcm="git commit -m"
+  alias gr="git rev-parse --show-toplevel"
 fi
