@@ -3,6 +3,10 @@ if [ -n `which git` ]; then
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\ →\ \1/'
   }
 
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
   alias g="git"
   alias gs="git status"
   alias gd="git diff"
