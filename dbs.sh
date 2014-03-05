@@ -1,4 +1,4 @@
-alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pg_start="postgres -D /usr/local/var/postgres"
 alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias mongo_start="mongod run --config /usr/local/etc/mongod.conf"
 alias mysql_start="nohup mysql.server start"
