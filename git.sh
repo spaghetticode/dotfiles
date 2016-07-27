@@ -28,4 +28,6 @@ fi
   alias gphh="git push heroku heroku:master"
   alias grp="git rev-parse --show-toplevel"
   alias gsp="git commit -C HEAD --amend"
+  alias gld="git log --date=iso --pretty=format:'%ad%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%aN %s'"
+  alias prune="git remote prune origin"
 fi
